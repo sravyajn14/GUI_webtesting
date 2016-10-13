@@ -1,0 +1,15 @@
+I have used chrome selenium web driver,ruby gems 2.6.6  for testing
+
+Form.rb
+
+script will perform automated testing 
+
+Form_test.rb
+
+postive test case: form is submitted
+The form is submitted because required fields are filled with proper values.'Name and 'Check box have proper values so it is submitted even though other values are not filled.This shows success test case
+
+Form_test1.rb
+
+ negative test case: form is not submitted
+The form cannot be submitted because the value of 'Name' field is empty.As 'Name is required it cannot be submitted without proper value eventhough check box is selected.This shows failed test test case.
